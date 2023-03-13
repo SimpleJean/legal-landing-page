@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500&display=swap');
+
+:host {
+  display: flex;
+  background: linear-gradient(330.22deg, rgba(221, 231, 247, 0) 25.58%, #DCE7F7 53.4%, #E8EEF6 78.25%);
+  width: 100%;
+
+}
+
+.hero-container {
+  display: flex;
+  /* align-items: center; */
+  height: 924px;
+}
+
+.hero-content {
+
+  margin-top: 150px;
+  z-index: 4;
+}
+
+.title {
+  font-family: Playfair Display;
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 108px;
+  letter-spacing: 0.02em;
+  color: rgba(9, 75, 114, 1);
+  /* width: 891px;
+  height: 216px; */
+  margin-left: 161px;
+  margin-top: 0px;
+}
+
+.paragraph {
+  /* width: 590px;
+  height: 76px; */
+
+  font-family: Plus Jakarta Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 38px;
+  letter-spacing: 0.5px;
+
+  color: rgba(79, 79, 79, 1);
+  margin-left: 168px;
+}
+
+.get-started {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 140.5%;
+  letter-spacing: 0.08em;
+
+  width: 190px;
+  height: 80px;
+  border-radius: 8px;
+  background: rgba(9, 75, 114, 1);
+  color: rgba(249, 248, 249, 1);
+  border: none;
+
+  margin-left: 165px;
+}
+
+img {
+  position: absolute;
+    left: 56%;
+    top: 50px;
+    z-index: 1;
+}

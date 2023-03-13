@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:host {
+  display: flex;
+  gap: 53px;
+  background: #F2F7FF;
+  width: 100%;
+}
+
+.content-container {
+  margin-top: 174px;
+  margin-left: 167px;
+}
+
+.title {
+  font-family: Playfair Display;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0.32307693362236023px;
+
+  color: rgba(45, 47, 48, 1);
+}
+
+.description {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: rgba(139, 140, 140, 1);
+
+}
+
+.card-container {
+  display: flex;
+  width: 545px;
+  height: 534px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 18px;
+
+  margin-top: 126px;
+  margin-bottom: 126px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 256px;
+  height: 253px;
+  display: flex;
+  align-items: flex-start;
+  box-shadow: 0px 18px 58px 16px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+
+}
+
+.card-title {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 22px;
+  letter-spacing: 0.5px;
+  color: rgba(54, 57, 64, 1);
+
+  margin-left: 24px;
+}
+
+p {
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  margin: 0 0 0 24px;
+  color: #8B8C8C;
+}
+
+img {
+  height: 37px;
+  width: 37px;
+  margin: 24px auto 4px 24px;
+}
